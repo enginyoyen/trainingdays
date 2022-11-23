@@ -13,12 +13,22 @@ In this challenge you will learn how to:
 
 ## Table Of Contents
 
-1. [Create an Azure Web App](#create-an-azure-web-app)
-2. [Create a Sample Application](#create-a-sample-application)
-3. [Deploy the Sample App to Azure](#deploy-the-sample-app-to-azure)
-4. [Working with Deployment Slots (optional - but recommended)](#working-with-deployment-slots-optional-but-recommended)
-5. [Azure Samples](#azure-samples)
-6. [Cleanup](#cleanup)
+- [Challenge 1: Azure Web Apps](#challenge-1-azure-web-apps)
+  - [Here is what you will learn 🎯](#here-is-what-you-will-learn-)
+  - [Table Of Contents](#table-of-contents)
+  - [Create an Azure Web App](#create-an-azure-web-app)
+    - [Option 1: Azure Portal](#option-1-azure-portal)
+    - [Option 2: Azure CLI](#option-2-azure-cli)
+  - [Create a Sample Application](#create-a-sample-application)
+    - [Visual Studio Code](#visual-studio-code)
+    - [Debug Tools](#debug-tools)
+  - [Deploy the Sample App to Azure](#deploy-the-sample-app-to-azure)
+  - [Working with Deployment Slots (optional - but recommended)](#working-with-deployment-slots-optional---but-recommended)
+  - [Deploy Sample Application to Staging Slot](#deploy-sample-application-to-staging-slot)
+    - [Show Staging Application](#show-staging-application)
+    - [Swapping Slots](#swapping-slots)
+  - [Azure Samples](#azure-samples)
+  - [Cleanup](#cleanup)
 
 ## Create an Azure Web App
 
@@ -314,7 +324,7 @@ Switch to the Run and Debug Tab, select _create a launch.json file_ and press **
 
 ![vscode](./images/vscode_debugger.png 'vscode')
 
-The project will now be built and after that, your browser will point to [https:/localhost:5001](https:/localhost:5001).
+The project will now be built and after that, your browser will point to [https://localhost:5001](https://localhost:5001).
 
 :::tip
 Here is a workaround, if port _5001_ is blocked on your machine.

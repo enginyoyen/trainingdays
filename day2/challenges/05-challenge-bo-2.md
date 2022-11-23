@@ -16,11 +16,17 @@ At the end of the day, this will be the architecture of our SCM Contacts Managem
 
 ## Table Of Contents
 
-1. [Services to handle Contact Images](#services-to-handle-contact-images)
-2. [Deploy the Azure Function to resize images](#deploy-the-azure-function-to-resize-images)
-3. [Deploy the Azure Web App providing the API to store images](#deploy-the-azure-web-app-providing-the-api-to-store-images)
-4. [Host the Single Page Application in Azure](#host-the-single-page-application-in-azure)
-5. [Wrap-Up](#wrap-up)
+- [💎 Breakout 2: Add a serverless microservice to our sample app and include messaging 💎](#-breakout-2-add-a-serverless-microservice-to-our-sample-app-and-include-messaging-)
+  - [Here is what you will learn 🎯](#here-is-what-you-will-learn-)
+  - [Table Of Contents](#table-of-contents)
+  - [Services to handle Contact Images](#services-to-handle-contact-images)
+    - [Storage Account (Container/Queue)](#storage-account-containerqueue)
+    - [Azure Function for Image Manipulation](#azure-function-for-image-manipulation)
+  - [Deploy the Azure Function to resize images](#deploy-the-azure-function-to-resize-images)
+  - [Deploy the Azure Web App providing the API to store images](#deploy-the-azure-web-app-providing-the-api-to-store-images)
+    - [Test with you local Single Page Application](#test-with-you-local-single-page-application)
+  - [Host the Single Page Application in Azure](#host-the-single-page-application-in-azure)
+  - [Wrap-Up](#wrap-up)
 
 ## Services to handle Contact Images
 
@@ -99,7 +105,7 @@ When the Function has been created, we need to add a few _Configuration settings
 
 ## Deploy the Azure Function to resize images
 
-Now it is time to deploy the Image Resizer Function App to Azure. Therefor, you need to open a new Visual Studio Code Workspace file. Please go to the folder `day2` and run `code day2-breakout2.code-workspace` from the command line. This will open the workspace dedicated to this second breakout challenge.
+Now it is time to deploy the Image Resizer Function App to Azure. Therefore, you need to open a new Visual Studio Code Workspace file. Please go to the folder `day2` and run `code day2-breakout2.code-workspace` from the command line. This will open the workspace dedicated to this second breakout challenge.
 
 You will see the following folder structure:
 

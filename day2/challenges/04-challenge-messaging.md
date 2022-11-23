@@ -104,7 +104,7 @@ Sending message: Message d61b256c-5c8c-482c-904a-63d322003c70
 
 ![portal_sb_messages](./images/portal_sb_messages.png 'portal_sb_messages')
 
-So, now let's create the subscriber that picks up the messages and processes each message. We could use another console application, but that's more than boring! We will use an Azure Logic App..._Serverless Resprise_..., so to say!
+So, now let's create the subscriber that picks up the messages and processes each message. We could use another console application, but that's more than boring! We will use an Azure Logic App..._Serverless Reprise_..., so to say!
 
 ### Add a Consumer
 

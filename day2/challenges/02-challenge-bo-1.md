@@ -13,16 +13,20 @@ Now it's time to get familiar with our sample application. In this challenge you
 ![architecture_bo1](./images/architecture_bo1.png 'architecture_bo1')
 
 :::tip
-📝 Please check, that all the [prerequisites](challenge-0.md) are set up in your machine.
+📝 Please check, that all the [prerequisites](00-challenge-setup.md) are set up in your machine.
 :::
 
 ## Table Of Contents
 
-1. [Setup Local Loop](#setup-local-loop)
-2. [Run the Contacts Service locally](#run-the-contacts-service-locally)
-3. [Deploy to Azure](#deploy-to-azure)
-4. [Finished before Time?](#finished-before-time)
-5. [Wrap-Up](#wrap-up)
+- [💎 Breakout 1: Deploy the Azure Dev College sample application to Azure 💎](#-breakout-1-deploy-the-azure-dev-college-sample-application-to-azure-)
+  - [Here is what you will learn 🎯](#here-is-what-you-will-learn-)
+  - [Table Of Contents](#table-of-contents)
+  - [Setup Local Loop](#setup-local-loop)
+  - [Run the Contacts Service locally](#run-the-contacts-service-locally)
+    - [Preparing the SPA for the first run](#preparing-the-spa-for-the-first-run)
+  - [Deploy to Azure](#deploy-to-azure)
+  - [Finished before Time?](#finished-before-time)
+  - [Wrap-Up](#wrap-up)
 
 ## Setup Local Loop
 
